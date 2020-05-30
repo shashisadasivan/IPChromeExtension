@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        background-color: #f9f9f9;
+      }
+      p {
+        font-family: verdana;
+        font-size: 20px;
+      }
+
+      .w3-container {
+          padding: 0.01em 16px;
+          margin-bottom: 1em;
+      }
+
+      .leftBar {
+          border-left: 6px solid #2196F3!important;
+
+      }
+
+      .about {
+        font-size: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="w3-container leftBar">
+      <p>IP v4: </p>
+      <p id="myipv4">Fetching IP v4...</p>
+    </div>
+
+    <div class="w3-container leftBar">
+      <p>IP v6: </p>
+      <p id="myipv6">Fetching IP v6...</p>
+    </div>
+
+    <div class="about">
+      created by <em><a href="https://github.com/shashisadasivan/IPChromeExtension">Shashi Sadasivan</a></em>
+    </div>
+    <!--<button id="changeColor"></button>-->
+    <script src="popup.js"></script>
+  </body>
+</html>
